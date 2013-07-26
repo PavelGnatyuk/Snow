@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF25F0E517A26DC600F54D9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF25F0E417A26DC600F54D9A /* UIKit.framework */; };
+		AF25F0E717A26DC600F54D9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF25F0E617A26DC600F54D9A /* Foundation.framework */; };
+		AF25F0E917A26DC600F54D9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF25F0E817A26DC600F54D9A /* CoreGraphics.framework */; };
+		AF25F0EF17A26DC600F54D9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF25F0ED17A26DC600F54D9A /* InfoPlist.strings */; };
+		AF25F0F117A26DC600F54D9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF25F0F017A26DC600F54D9A /* main.m */; };
+		AF25F0F517A26DC600F54D9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF25F0F417A26DC600F54D9A /* AppDelegate.m */; };
+		AF25F0F717A26DC600F54D9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF25F0F617A26DC600F54D9A /* Default.png */; };
+		AF25F0F917A26DC600F54D9A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF25F0F817A26DC600F54D9A /* Default@2x.png */; };
+		AF25F0FB17A26DC600F54D9A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF25F0FA17A26DC600F54D9A /* Default-568h@2x.png */; };
+		AF25F10D17A26DF400F54D9A /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = AF25F10A17A26DF400F54D9A /* snow.png */; };
+		AF25F10E17A26DF400F54D9A /* SnowEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF25F10C17A26DF400F54D9A /* SnowEmitterView.m */; };
+		AF25F11017A26F3F00F54D9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF25F10F17A26F3F00F54D9A /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF25F0E117A26DC600F54D9A /* Snow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF25F0E417A26DC600F54D9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF25F0E617A26DC600F54D9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF25F0E817A26DC600F54D9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF25F0EC17A26DC600F54D9A /* Snow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Snow-Info.plist"; sourceTree = "<group>"; };
+		AF25F0EE17A26DC600F54D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF25F0F017A26DC600F54D9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF25F0F217A26DC600F54D9A /* Snow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snow-Prefix.pch"; sourceTree = "<group>"; };
+		AF25F0F317A26DC600F54D9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF25F0F417A26DC600F54D9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF25F0F617A26DC600F54D9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AF25F0F817A26DC600F54D9A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AF25F0FA17A26DC600F54D9A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AF25F10A17A26DF400F54D9A /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		AF25F10B17A26DF400F54D9A /* SnowEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowEmitterView.h; sourceTree = "<group>"; };
+		AF25F10C17A26DF400F54D9A /* SnowEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowEmitterView.m; sourceTree = "<group>"; };
+		AF25F10F17A26F3F00F54D9A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF25F0DE17A26DC600F54D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF25F11017A26F3F00F54D9A /* QuartzCore.framework in Frameworks */,
+				AF25F0E517A26DC600F54D9A /* UIKit.framework in Frameworks */,
+				AF25F0E717A26DC600F54D9A /* Foundation.framework in Frameworks */,
+				AF25F0E917A26DC600F54D9A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF25F0D817A26DC600F54D9A = {
+			isa = PBXGroup;
+			children = (
+				AF25F10F17A26F3F00F54D9A /* QuartzCore.framework */,
+				AF25F0EA17A26DC600F54D9A /* Snow */,
+				AF25F0E317A26DC600F54D9A /* Frameworks */,
+				AF25F0E217A26DC600F54D9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF25F0E217A26DC600F54D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF25F0E117A26DC600F54D9A /* Snow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF25F0E317A26DC600F54D9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF25F0E417A26DC600F54D9A /* UIKit.framework */,
+				AF25F0E617A26DC600F54D9A /* Foundation.framework */,
+				AF25F0E817A26DC600F54D9A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF25F0EA17A26DC600F54D9A /* Snow */ = {
+			isa = PBXGroup;
+			children = (
+				AF25F0F317A26DC600F54D9A /* AppDelegate.h */,
+				AF25F0F417A26DC600F54D9A /* AppDelegate.m */,
+				AF25F10A17A26DF400F54D9A /* snow.png */,
+				AF25F10B17A26DF400F54D9A /* SnowEmitterView.h */,
+				AF25F10C17A26DF400F54D9A /* SnowEmitterView.m */,
+				AF25F0EB17A26DC600F54D9A /* Supporting Files */,
+			);
+			path = Snow;
+			sourceTree = "<group>";
+		};
+		AF25F0EB17A26DC600F54D9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF25F0EC17A26DC600F54D9A /* Snow-Info.plist */,
+				AF25F0ED17A26DC600F54D9A /* InfoPlist.strings */,
+				AF25F0F017A26DC600F54D9A /* main.m */,
+				AF25F0F217A26DC600F54D9A /* Snow-Prefix.pch */,
+				AF25F0F617A26DC600F54D9A /* Default.png */,
+				AF25F0F817A26DC600F54D9A /* Default@2x.png */,
+				AF25F0FA17A26DC600F54D9A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF25F0E017A26DC600F54D9A /* Snow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF25F10717A26DC600F54D9A /* Build configuration list for PBXNativeTarget "Snow" */;
+			buildPhases = (
+				AF25F0DD17A26DC600F54D9A /* Sources */,
+				AF25F0DE17A26DC600F54D9A /* Frameworks */,
+				AF25F0DF17A26DC600F54D9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snow;
+			productName = Snow;
+			productReference = AF25F0E117A26DC600F54D9A /* Snow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF25F0D917A26DC600F54D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pavel Gnatyuk";
+			};
+			buildConfigurationList = AF25F0DC17A26DC600F54D9A /* Build configuration list for PBXProject "Snow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF25F0D817A26DC600F54D9A;
+			productRefGroup = AF25F0E217A26DC600F54D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF25F0E017A26DC600F54D9A /* Snow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF25F0DF17A26DC600F54D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF25F0EF17A26DC600F54D9A /* InfoPlist.strings in Resources */,
+				AF25F0F717A26DC600F54D9A /* Default.png in Resources */,
+				AF25F0F917A26DC600F54D9A /* Default@2x.png in Resources */,
+				AF25F0FB17A26DC600F54D9A /* Default-568h@2x.png in Resources */,
+				AF25F10D17A26DF400F54D9A /* snow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF25F0DD17A26DC600F54D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF25F0F117A26DC600F54D9A /* main.m in Sources */,
+				AF25F0F517A26DC600F54D9A /* AppDelegate.m in Sources */,
+				AF25F10E17A26DF400F54D9A /* SnowEmitterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF25F0ED17A26DC600F54D9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF25F0EE17A26DC600F54D9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF25F10517A26DC600F54D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF25F10617A26DC600F54D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF25F10817A26DC600F54D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pavel Gnatyuk (X6EDYMWD4L)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snow/Snow-Prefix.pch";
+				INFOPLIST_FILE = "Snow/Snow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "676A813B-15FF-4728-A295-E01CB76CCBEE";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF25F10917A26DC600F54D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pavel Gnatyuk (X6EDYMWD4L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pavel Gnatyuk (X6EDYMWD4L)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Snow/Snow-Prefix.pch";
+				INFOPLIST_FILE = "Snow/Snow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "676A813B-15FF-4728-A295-E01CB76CCBEE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "676A813B-15FF-4728-A295-E01CB76CCBEE";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF25F0DC17A26DC600F54D9A /* Build configuration list for PBXProject "Snow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25F10517A26DC600F54D9A /* Debug */,
+				AF25F10617A26DC600F54D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF25F10717A26DC600F54D9A /* Build configuration list for PBXNativeTarget "Snow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25F10817A26DC600F54D9A /* Debug */,
+				AF25F10917A26DC600F54D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF25F0D917A26DC600F54D9A /* Project object */;
+}
