@@ -1,7 +1,7 @@
 Snow
 ====
 
-Snow Effect. Demo project. CAEmitterLayer
+Snow Effect. CAEmitterLayer demo.
 
 ![Alt text](Screenshot.png "iPhone 5 screenshot")
 
